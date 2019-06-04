@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>State - Menu</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 offset-lg-4 col-md-8 offset-md-2 col-sm-12">
+                <h1>- CURRENT STATE -</h1>
+                <h1 id="state">0</h1>
+
+                <div class="card" id="button" onclick="next_state()">
+                    <h1>NEXT</h1>
+                </div>
+
+                <div class="card" id="button" onclick="back_state()">
+                    <h1>BACK</h1>
+                </div>
+
+                <div class="card" id="button" onclick="reset_state()">
+                    <h1>RESET</h1>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/state.js"></script>
+</body>
+
+</html>

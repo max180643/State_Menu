@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Mitr&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+    touch-action: none;
+}
+
+#state {
+    font-size: 10em;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin: 20px 0px;
+}
+
+#button h1 {
+    font-size: 1.5em;
+}
+
+
+.card {
+    margin: 10px;
+}
+
+.card:hover {
+    border-color: #b5b8bb;
+    box-shadow: 0 0 10px #b5b8bb;
+}
+
+.card:active {
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.content {
+    max-width: 667px;
+}
+
